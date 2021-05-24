@@ -14,9 +14,26 @@ cd learnjs
 npm install
 ```
 
+## Lezioni
+
+I file delle lezioni seguono questa convenzione: *LezioneJS_01.svelte*, dove ogni lezione è identificata da un numero progressivo.
+
+Per eseguire la lezione, modificare il file `src/main.js` e modifica la prima linea in questo modo:
+
+da
+```
+import LearnJS from './LearnJS.svelte';
+```
+
+a
+```
+import LearnJS from './LezioneJS_01.svelte';
+```
+
+
 ## Sviluppo
 
-Edita il file ```src/LearnJS.svelte```
+Edita il file ```src/LezioneJS_xx.svelte```
 
 ...poi lancia il server locale di sviluppo:
 
